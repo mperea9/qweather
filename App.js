@@ -5,7 +5,6 @@ import { DangerZone } from 'expo';
 const { Lottie } = DangerZone;
 
 import { API_KEY } from './utils/WeatherAPIKey';
-
 import Weather from './components/Weather';
 
 export default class App extends React.Component {
@@ -35,7 +34,6 @@ export default class App extends React.Component {
     )
       .then(res => res.json())
       .then(json => {
-        // console.log(json);
         this.setState({
           temperature: json.main.temp,
           weatherCondition: json.weather[0].main,
@@ -63,15 +61,18 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    fontFamily: 'San Francisco'
   },
   loadingContainer: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFFDE4'
+    backgroundColor: '#FFFDE4',
+    fontFamily: 'San Francisco'
   },
   loadingText: {
-    fontSize: 30
+    fontSize: 30,
+    fontFamily: 'San Francisco'
   }
 });

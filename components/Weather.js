@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
   },
   tempText: {
     fontSize: 72,
+    fontFamily: 'San Francisco',
     color: '#fff'
   },
   bodyContainer: {
@@ -58,10 +59,12 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 60,
+    fontFamily: 'San Francisco',
     color: '#fff'
   },
   subtitle: {
     fontSize: 24,
+    fontFamily: 'San Francisco',
     color: '#fff'
   }
 });
