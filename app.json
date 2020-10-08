@@ -3,7 +3,6 @@
     "name": "qWeather",
     "slug": "qweather",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
       "android",
@@ -24,12 +23,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "description": "A simple weather app, for any minimalists",
-    "ios": {
       "bundleIdentifier": "com.yourcompany.yourappname"
     },
+    "description": "A simple weather app, for any minimalists",
     "android": {
       "package": "com.yourcompany.yourappname"
     }
